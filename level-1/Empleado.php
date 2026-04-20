@@ -32,7 +32,7 @@ class Empleado {
      } else {
          $mensaje = "El empleado " . $this->nombre . " No tiene que pagar impuestos";
      }
-     return $mensaje
+     return $mensaje;
 
   } 
   
