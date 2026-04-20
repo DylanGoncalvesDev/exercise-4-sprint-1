@@ -4,7 +4,7 @@ class Shape {
   private $ancho = 0;
   private $alto = 0;
 
-  //constructo//
+  //constructor//
   public function __construct (int|float $ancho, int|float $alto) {
     $this-> ancho = $ancho;
     $this-> alto = $alto;
@@ -28,3 +28,4 @@ class Shape {
   }
 
 }
+?>

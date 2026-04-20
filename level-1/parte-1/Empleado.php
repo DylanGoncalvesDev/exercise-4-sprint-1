@@ -4,7 +4,7 @@ class Empleado {
   private $nombre = "";
   private $sueldo = 0;
 
-  //constructo//
+  //constructor//
   public function __construct (string $nombre, int $sueldo) {
     $this-> nombre = $nombre;
     $this-> sueldo = $sueldo;

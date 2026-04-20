@@ -21,8 +21,6 @@
   echo "\n" . $empleado1 -> determinarImpuesto ();
   echo "\n" . $empleado2 -> determinarImpuesto ();
 
-  
-
 ?> 
 
  
