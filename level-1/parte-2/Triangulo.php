@@ -8,7 +8,7 @@ public function __construct(int|float $ancho, int|float $alto) {
 
 //metodo para calcular el area//
 public function calcularArea (): string {
-    $area = $this->getAncho() * $this->getAlto();
+    $area = ($this->getAncho() * $this->getAlto()) / 2;
     return "El area del Triangulo es: " . $area;
 }
 
