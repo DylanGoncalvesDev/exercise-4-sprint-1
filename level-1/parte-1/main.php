@@ -1,5 +1,4 @@
-<
-  <?php
+ <?php
   echo "//Parte 1//";
 
   //llamamos a la clase//
