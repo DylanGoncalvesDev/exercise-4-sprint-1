@@ -10,11 +10,11 @@ $triangulo1 = new Triangulo (12.7, 61);
 
 //probamos setters//
 $rectangulo1 -> setAncho (98);
-$Triangulo1 -> setAlto (120);
+$triangulo1 -> setAlto (120);
 
 //probamos getters//
  echo "\n" . $rectangulo1 -> getAncho ();
- echo "\n" . $Triangulo1 -> getAlto ();
+ echo "\n" . $triangulo1 -> getAlto ();
 
 //llamamos al metodo para calcular el area//
 echo "\n" . $rectangulo1 -> calcularArea ();
